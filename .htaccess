@@ -1,0 +1,4 @@
+suPHP_ConfigPath /home/midasmn/correspondent.xyz/xserver_php/
+AddHandler fcgid-script .php .phps
+FCGIWrapper "/home/midasmn/correspondent.xyz/xserver_php/php-cgi -c /home/midasmn/correspondent.xyz/xserver_php/php.ini" .php
+FCGIWrapper "/home/midasmn/correspondent.xyz/xserver_php/php-cgi -c /home/midasmn/correspondent.xyz/xserver_php/php.ini" .phps
